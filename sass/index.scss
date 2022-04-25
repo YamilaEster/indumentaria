@@ -187,7 +187,7 @@ grid-template-columns: repeat(4, 1fr);
 
     display: inline;
     padding: 50px 50px 50px;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 
 #bannerproductos{
@@ -228,8 +228,67 @@ padding: 0.7em 1.7em;
  border: 1px solid white;
  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
 }
+.Guiadecomocomprar{
+list-style-type: decimal;
+height: 12cm;
+}
+.listadelaguia{
+margin:250px 100px;
+line-height: 30px;
+display: list-item;
+text-align: justify;
+color: black;
+font-size: 11px;
+font-family:Arial, Helvetica, sans-serif
+}
+.costosdelenvio{
+    text-align: justify;
+    margin: 40px 80px;
+}
+.costos{
+text-align: justify;
+margin: 5px 10px;
+color: #000000;
+}
+.spam11{
+    margin-top: 10px;
+    padding: 5px;
+}
+#footer{
+    width: 100%;
+    height: 230px;
+    left: 0px;
+    top: 0px;
+    background-color: #ffd2ed;
+    margin: 0;
+    padding: 0;
+}
 
-#bannercategorys{
-    display: flex;
-    flex-grow: 100px;
+.spam12{
+    color: #ef5da8;
+}
+#preguntas{
+    width: 100%;
+    height: 800px;
+    padding: 250px;
+    color: #ef5da8;
+    justify-content:space-between
+}
+#talles{
+    height: 100%;
+    padding-top: 250px;
+}
+#formulariocc{
+    height: 100%;
+    padding-top: 40px;
+}
+.rapido{
+    justify-content: center;
+    padding-top: 7cm;
+    text-align: center;
+}
+#formulariois{
+    height: 100%;
+    padding-top: 7cm;
+    padding: 7cm 0cm 1cm 0cm; 
 }
